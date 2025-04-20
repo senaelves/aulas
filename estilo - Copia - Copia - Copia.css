@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    margin: 3px;
+    padding: 2px;
+    background-color: #e8f0fe;
+    line-height: 1.4; /* Reduzi um pouco para mais equilíbrio */
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+}
+
+header {
+    background-color: #1e90ff;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 0.1em;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    background-color: #1e90ff;
+    color: white;
+    text-align: center;
+    font-size: 37px;
+    padding: 0.2em;
+    margin: 0.1px;  /* Pequeno espaçamento abaixo */
+    display: inline-block;
+    border-radius: 15px;
+}
+
+address {
+    color: #4169e1;
+    font-style: italic;
+    border-bottom: 1px solid #1e90ff;
+    text-decoration: none;
+    margin-top: -67px; /* Reduzi um pouco */
+}
+
+section {
+    padding: 0.3em; /* Reduzi para um visual mais compacto */
+    flex: 1;
+}
+
+h2 {
+    color: #333;
+}
+
+.era {
+    margin-bottom: 0.1em; /* Redução do espaçamento */
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.1em;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 15px; /* Melhor espaçamento entre imagem e texto */
+    margin-bottom: 0.1em; /* Reduzi para ficar mais compacto */
+}
+
+.content img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.content p {
+    flex: 1;
+    margin: 0;
+    text-align: justify;
+    text-indent: 1.5em; /* Pequena redução no recuo */
+}
+
+.button-container {
+    text-align: center;
+    margin: 0.1em auto 0.1em;  /*Reduzi o espaço inferior */
+    padding: 0.5em 0; /* Redução do padding */
+    display: inline-block;
+    width: 100%;
+}
+
+.button {
+    background-color: #1e90ff;
+    border: 4px solid #1e90ff;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 3px 1px; /* Reduzi margens laterais */
+    cursor: pointer;
+    border-radius: 15px;
+    transition: background-color 0.4s ease;
+}
+
+.button:hover {
+    background-color: #4682b4;
+}
+
+.button:active {
+    background-color: #1c86ee;
+}
+
+
+
